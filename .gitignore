@@ -1,0 +1,87 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+wheels/
+*.whl
+MANIFEST
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# Dependencias
+site-packages/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# ML
+*.pkl
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+*.safetensors
+models/
+checkpoints/
+
+# Datos
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.jsonl
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# IDEs
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs y caché
+*.log
+*.cache
+.cache/
+logs/
+tmp/
+temp/
+
+# Render / deploy
+.render/
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+*.co
+*.gr
+
+# DIMAC road graph data
+search_local/DIMAC/
+# Binarios grandes del grafo
+*.bin
+*.exe
