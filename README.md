@@ -2,6 +2,8 @@
 
 Documentación inicial
 
+**Despliegue Azure:** https://sustainability-optimization-hycfhxhmfwhxcbda.francecentral-01.azurewebsites.net
+
 ## Reto: Logística por DHL
 
 Optimizar la cadena de suministro en base a la sostenibilidad, generando oportunidades:
@@ -95,7 +97,7 @@ Instancias disponibles en [9th DIMAC Challenge](http://www.diag.uniroma1.it/chal
 **Funcionamiento del servicio**
 El empresario introduce los siguientes datos mediante un archivo: lista de depósitos, flota de cada depósito y lista de clientes. Inclyendo en los datos las coordenadas de los clientes y de los depósitos.
 
-Después internamente se calculan las distancias necesarias para construir la matriz de distancias (mediante build_problem), que lee el JSON del usuario, calcula la distancia Haversine entre todos los pares de nodos, multiplica por un factor para aproximar la distancia real por carretera y devuelve la matriz de distancias.
+Después internamente se calculan las distancias necesarias para construir la matriz de distancias (mediante build_problem),  JSON, calcula la distancia Haversine entre todos los pares de nodos, multiplica por un factor para aproximar la distancia real por carretera y devuelve la matriz de distancias.
 
 Posteriormente se le pasarían todos los datos al solver para aplicarlo a nuestro modelo de programacion lineal.
 
